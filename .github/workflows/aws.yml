@@ -76,6 +76,6 @@ jobs:
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
-        service: sctp-cloud-infra-ecs-service
-        cluster: sctp-cloud-infra-cluster
+        service: pglim360svc
+        cluster: pglim360-cluster
         wait-for-service-stability: true
