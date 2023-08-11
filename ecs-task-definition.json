@@ -1,15 +1,15 @@
 {
-    "family": "asgn-3.5-pglim360",
+    "family": "ws-ce-lesson-3-11",
     "executionRoleArn": "arn:aws:iam::255945442255:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
-            "name": "asgn-3.5-pglim360",
-            "image": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/sctp-cloud-infra:latest",
+            "name": "ws-ce-lesson-3-11",
+            "image": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/ws-ce-lesson-3-11:latest",
             "portMappings": [
                 {
-                    "containerPort": 8080,
-                    "hostPort": 8080,
+                    "containerPort": 3000,
+                    "hostPort": 3000,
                     "protocol": "tcp"
                 }
             ],
