@@ -68,7 +68,7 @@ jobs:
       uses: aws-actions/amazon-ecs-render-task-definition@v1
       with:
         task-definition: ecs-task-definition.json
-        container-name: asgn-3.5-pglim360
+        container-name: ws-ce-lesson-3-11
         image: ${{ steps.build-image.outputs.image }}
 
     - name: Deploy Amazon ECS task definition
