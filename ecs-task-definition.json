@@ -4,8 +4,8 @@
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
-            "name": "ws-ce-lesson-3-11",
-            "image": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/ws-ce-lesson-3-11:latest",
+            "name": "pglim360-ce-lesson-3-11",
+            "image": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/pglim360-ce-lesson-3-11:latest",
             "portMappings": [
                 {
                     "containerPort": 3000,
