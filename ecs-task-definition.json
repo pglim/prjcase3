@@ -1,5 +1,5 @@
 {
-    "family": "ws-ce-lesson-3-11",
+    "family": "pglim360-ce-lesson-3-11",
     "executionRoleArn": "arn:aws:iam::255945442255:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "containerDefinitions": [
