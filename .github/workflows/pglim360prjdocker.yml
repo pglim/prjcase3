@@ -76,5 +76,5 @@ jobs:
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
         service: pglim360prjsvc1
-        cluster: pglim360-cluster
+        cluster: pglim360prj-cluster
         wait-for-service-stability: true
