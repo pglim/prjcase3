@@ -1,11 +1,11 @@
 {
-    "family": "pglim360-ce-lesson-3-11",
+    "family": "prjdockerdef",
     "executionRoleArn": "arn:aws:iam::255945442255:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
-            "name": "pglim360-ce-lesson-3-11",
-            "image": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/pglim360-ce-lesson-3-11:latest",
+            "name": "prjdockerde",
+            "image": "255945442255.dkr.ecr.ap-southeast-1.amazonaws.com/prjdockerde:latest",
             "portMappings": [
                 {
                     "containerPort": 3000,
