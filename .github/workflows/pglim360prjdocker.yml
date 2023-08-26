@@ -67,7 +67,7 @@ jobs:
       id: task-def
       uses: aws-actions/amazon-ecs-render-task-definition@v1
       with:
-        task-definition: pglim360-task-definition.json
+        task-definition: prjdockerdef.json
         container-name: pglim360-ce-lesson-3-11
         image: ${{ steps.build-image.outputs.image }}
 
